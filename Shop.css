@@ -1,0 +1,72 @@
+* {
+        box-sizing: border-box;
+        font-family: "Segoe UI", Tahoma, sans-serif;
+    }
+
+ body {
+        background: #f5f7fb;
+        margin: 0;
+        padding: 40px;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 30px;
+    }
+
+    .card {
+        background: #fff;
+        border-radius: 12px;
+        padding: 25px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        cursor: pointer;
+    }
+
+    .card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+
+    .icon {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 34px;
+        color: #fff;
+        flex-shrink: 0;
+    }
+
+    .anchor { background: #ffffff; border: 2px dashed #3fa9f5; color: #3fa9f5; }
+    .beauty { background: #45c0e8; }
+    .cafe { background: #f4b84a; }
+    .entertainment { background: #8fc4f7; }
+    .kids { background: #f57c8a; }
+    .footwear { background: #2dd4bf; }
+    .home { background: #f26b7a; }
+    .sports { background: #78a9ff; }
+    .travel { background: #4ade80; }
+    .mobile { background: #f1c40f; }
+    .book { background: #4cd7a5; }
+    .food { background: #e67e22; }
+    .watch { background: #ef6c45; }
+    .eye { background: #5adf91; }
+    .kiosk { background: #4cd964; }
+    .health { background: #38d9d9; }
+    .jewel { background: #35c9d0; }
+    .toys { background: #ffee00; color: #333; }
+
+    .title {
+        font-size: 18px;
+        font-weight: 600;
+        color: #333;
+    }
